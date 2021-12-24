@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, StyleSheet, ScrollView} from 'react-native';
 import ToggleMenu from '../Components/ToggleMenu';
 import CarouselBanner from '../Components/CarouselBanner';
+import ShopByCategory from '../Components/ShopByCategory';
+import ProductsOnPromotion from '../Components/ProductsOnPromotion';
 import { AntDesign } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -46,14 +48,18 @@ const HomeScreen = ({navigation}) => {
            </View>
             <View style={styles.consult}>
                 <View style={[styles.consult_cont,styles.consult_bg_1]}>
+                    <Text style={styles.consult_top_icon}><MaterialIcons name="headset-mic" size={20} color="#fff" /></Text>
                     <Text style={{color: "#fff", fontSize: 17}}>Consultation</Text>
-                    <MaterialIcons name="headset-mic" size={54} color="black" />
+                    <MaterialIcons name="headset-mic" size={54} color="#1111" />
                 </View>
                 <View style={[styles.consult_cont,styles.consult_bg_2 ]}>
+                    <Text style={styles.consult_top_icon}><FontAwesome5 name="whatsapp" size={20} color="#fff" /></Text>
                     <Text style={{color: "#fff", fontSize: 17}}>Whatsapp</Text>
-                    <FontAwesome5 name="whatsapp" size={54} color="black" />
+                    <FontAwesome5 name="whatsapp" size={54} color="#1111" />
                 </View>
             </View>
+            <ShopByCategory />
+            <ProductsOnPromotion />
         </View>
         </ScrollView>
     )
@@ -142,9 +148,20 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        width: "45%",
+        width: "47%",
         padding: 10,
         borderRadius: 5,
+        height: 100,
+    },
+
+    consult_top_icon: {
+        backgroundColor: "#1111",
+        position: "absolute",
+        top: 5,
+        left: 10,
+        padding: 4, 
+        borderRadius: 100,
+
     },
 
     consult_bg_1: {

@@ -16,10 +16,7 @@ const ToggleMenu = () => {
                         <Entypo name='menu' size={30} color="#fff" />
                     </TouchableOpacity>
                 </Text>
-                <Text style={styles.img}>
-                    {/* <Image source={require('../assets/images/logo.png')} style={{ width:250, height: 100, paddingBottom: 200}} resizeMode={'container'} /> */}
-                    Linkpharmacy
-                </Text>
+                <Image source={require('../assets/images/logo.png')} style={styles.img} />
                 <Text>
                     <FontAwesome5 name="bell" size={24} color="#fff" />
                 </Text>
@@ -29,7 +26,7 @@ const ToggleMenu = () => {
                 
             </View>
             <View style={styles.text}>
-                <Feather name="search" size={24} color="#fff" />
+                <Feather name="search" size={24} color="#777" />
                 <TextInput
                     placeholder='Search for prescription medicines and OTC products'
                  />
@@ -43,9 +40,7 @@ export default ToggleMenu;
 const styles = StyleSheet.create({
     wrapper: {
         backgroundColor: "#c4d600",
-        // flexDirection: "row",
         width: "100%",
-        // height: 100,
         elevation: 1,
         paddingHorizontal: 20,
         borderBottomLeftRadius: 30,
@@ -65,14 +60,8 @@ const styles = StyleSheet.create({
     },
 
     img: {
-        // backgroundColor:"#5555",
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
-        alignItems: "center",
-        // height: 50,
-        // marginTop: -10,
-        fontSize: 25
+        width: "75%",
+        height: "80%",
     },
 
     text: {
