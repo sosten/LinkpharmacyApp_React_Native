@@ -1,22 +1,21 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
-import { Entypo } from '@expo/vector-icons';
-import products_on_promotion from '../Constants/ProductsOnPromotion';
+import React from 'react'
+import { StyleSheet, Text, View, FlatList, Image } from 'react-native';
+import seasonal_products from '../Constants/SeasonalProducts';
 
-const ProductsOnPromotion = () => {
+const SeasonalProducts = () => {
     return (
         <View style={styles.container}>
-            <View style={styles.products_flex}>
+            <View style={styles.seasonal_flex}>
                 <View>
                     <Text style={{color: "#777",}}>EXPLORE</Text> 
-                    <Text style={styles.product_promo}>Products On Promotion</Text>
+                    <Text style={styles.seasonal_cont}>Seasonal Products</Text>
                 </View>
                 <View>
                     <Text style={{color: "green", fontSize: 17, fontWeight: "700"}}>SEE ALL <Entypo name="chevron-thin-right" size={18} color="green" /></Text>
                 </View>
             </View>
             <FlatList 
-                data={products_on_promotion}
+                data={seasonal_products}
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
 
@@ -40,7 +39,7 @@ const ProductsOnPromotion = () => {
     )
 }
 
-export default ProductsOnPromotion
+export default SeasonalProducts
 
 const styles = StyleSheet.create({
     container: {
@@ -51,13 +50,13 @@ const styles = StyleSheet.create({
         elevation: 4
     },
 
-    products_flex: {
+    seasonal_flex: {
         flexDirection: "row",
         alignItems: "baseline",
         justifyContent: "space-between"
     },
 
-    product_promo: {
+    seasonal_cont: {
         backgroundColor: "green",
         padding: 15,
         marginTop: 10,

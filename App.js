@@ -11,6 +11,11 @@ import DrawerItems from './Constants/DrawerItems';
 import { AntDesign } from '@expo/vector-icons'; 
 import { EvilIcons } from '@expo/vector-icons';
 import { Fontisto } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
+import { SimpleLineIcons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
+import { Feather } from '@expo/vector-icons';
 import ToggleMenu from './Components/ToggleMenu';
    
 
@@ -54,11 +59,144 @@ export default function App() {
                   size={24}
                   color="black"
                  />
-              : <AntDesign
+              : drawer.iconType === "AntDesign" ?
+                <AntDesign
                   name={drawer.iconName}
                   size={24}
                   color="black"
-                />,
+                />
+              : drawer.iconType === "Ionicons" ?
+                <Ionicons
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black" 
+                />
+              : drawer.iconType === "SimpleLineIcons" ?
+                <SimpleLineIcons 
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "Feather" ?
+                <Feather 
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "Fontisto" ?
+                <Fontisto
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "Fontisto" ?
+                <Fontisto
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "MaterialCommunityIcons" ?
+                <MaterialCommunityIcons
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "EvilIcons" ?
+                <EvilIcons
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "MaterialCommunityIcons" ?
+                <MaterialCommunityIcons
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+              
+              : drawer.iconType === "MaterialCommunityIcons" ?
+                <MaterialCommunityIcons
+                  name="alarm" 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "SimpleLineIcons" ?
+                <SimpleLineIcons
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "AntDesign" ?
+                <AntDesign
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "SimpleLineIcons" ?
+                <SimpleLineIcons
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "AntDesign" ?
+                <AntDesign
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "AntDesign" ?
+                <AntDesign
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "AntDesign" ?
+                <AntDesign
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "Feather" ?
+                <Feather
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "MaterialCommunityIcons" ?
+                <MaterialCommunityIcons
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+
+              : drawer.iconType === "SimpleLineIcons" ?
+                <SimpleLineIcons
+                  name={drawer.iconName}  
+                  size={24}
+                  color="black"
+                />
+
+              :  
+                <MaterialIcons
+                  name={drawer.iconName} 
+                  size={24}
+                  color="black"
+                />
+                ,
 
                 headerShown: false,
                 // header: ()=>{

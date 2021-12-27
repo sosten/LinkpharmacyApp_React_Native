@@ -15,12 +15,9 @@ export default function Prescription({navigation}) {
 const styles = StyleSheet.create({
     prec_container: {
         backgroundColor: "#f2f2f0",
-        // flexDirection: 'row',
-        // width: 390,
         margin: 10,
         padding: 10,
         borderRadius: 10,
-        // height: 300,
     },
 
     h_1: {

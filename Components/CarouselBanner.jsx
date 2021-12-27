@@ -29,7 +29,6 @@ export default function CarouselBanner() {
 
 const styles = StyleSheet.create({
     container: {
-      // flex: 1,
       flexDirection: "row",
       width: "100%",
       backgroundColor: '#fff',

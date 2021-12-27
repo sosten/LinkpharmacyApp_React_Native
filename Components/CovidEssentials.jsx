@@ -1,22 +1,22 @@
-import React from 'react';
+import React from 'react'
 import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
-import products_on_promotion from '../Constants/ProductsOnPromotion';
+import covid_essentials from '../Constants/CovidEssentials';
 
-const ProductsOnPromotion = () => {
+const CovidEssentials = () => {
     return (
         <View style={styles.container}>
-            <View style={styles.products_flex}>
+            <View style={styles.covid_flex}>
                 <View>
                     <Text style={{color: "#777",}}>EXPLORE</Text> 
-                    <Text style={styles.product_promo}>Products On Promotion</Text>
+                    <Text style={styles.covid_cont}>Covid Essentials</Text>
                 </View>
                 <View>
                     <Text style={{color: "green", fontSize: 17, fontWeight: "700"}}>SEE ALL <Entypo name="chevron-thin-right" size={18} color="green" /></Text>
                 </View>
             </View>
             <FlatList 
-                data={products_on_promotion}
+                data={covid_essentials}
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
 
@@ -40,7 +40,7 @@ const ProductsOnPromotion = () => {
     )
 }
 
-export default ProductsOnPromotion
+export default CovidEssentials
 
 const styles = StyleSheet.create({
     container: {
@@ -51,13 +51,13 @@ const styles = StyleSheet.create({
         elevation: 4
     },
 
-    products_flex: {
+    covid_flex: {
         flexDirection: "row",
         alignItems: "baseline",
         justifyContent: "space-between"
     },
 
-    product_promo: {
+    covid_cont: {
         backgroundColor: "green",
         padding: 15,
         marginTop: 10,
