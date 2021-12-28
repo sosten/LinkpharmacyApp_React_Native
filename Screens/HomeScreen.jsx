@@ -7,6 +7,8 @@ import ProductsOnPromotion from '../Components/ProductsOnPromotion';
 import CovidEssentials from '../Components/CovidEssentials';
 import PopularProducts from '../Components/PopularProducts';
 import SeasonalProducts from '../Components/SeasonalProducts';
+import FeaturedProducts from '../Components/FeaturedProducts';
+import HealthyLiving from '../Components/HealthyLiving';
 import { AntDesign } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -66,6 +68,8 @@ const HomeScreen = ({navigation}) => {
                 <CovidEssentials />
                 <PopularProducts />
                 <SeasonalProducts />
+                <FeaturedProducts />
+                <HealthyLiving />
             </View>
         </ScrollView>
     )
@@ -77,7 +81,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         width: "100%",
-        backgroundColor: "#fff",
+        backgroundColor: "#f6f6f9",
     },
 
     prec_container: {

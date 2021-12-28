@@ -1,22 +1,23 @@
-import React from 'react'
-import { StyleSheet, Text, View, FlatList, Image } from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
-import popular_products from '../Constants/PopularProducts';
+import healthy_living from '../Constants/HealthyLiving';
 
-const PopularProducts = () => {
+
+const HealthyLiving = () => {
     return (
         <View style={styles.container}>
-            <View style={styles.popular_flex}>
+            <View style={styles.products_flex}>
                 <View>
                     <Text style={{color: "#777",}}>EXPLORE</Text> 
-                    <Text style={styles.popular_cont}>Popular Products</Text>
+                    <Text style={styles.product_promo}>Healthy Living</Text>
                 </View>
                 <View>
                     <Text style={{color: "green", fontSize: 17, fontWeight: "700"}}>SEE ALL <Entypo name="chevron-thin-right" size={18} color="green" /></Text>
                 </View>
             </View>
             <FlatList 
-                data={popular_products}
+                data={healthy_living}
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
 
@@ -40,7 +41,7 @@ const PopularProducts = () => {
     )
 }
 
-export default PopularProducts
+export default HealthyLiving
 
 const styles = StyleSheet.create({
     container: {
@@ -51,13 +52,13 @@ const styles = StyleSheet.create({
         elevation: 4
     },
 
-    popular_flex: {
+    products_flex: {
         flexDirection: "row",
         alignItems: "baseline",
         justifyContent: "space-between"
     },
 
-    popular_cont: {
+    product_promo: {
         backgroundColor: "#c4d600",
         padding: 10,
         marginTop: 10,

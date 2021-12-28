@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View, FlatList, Image } from 'react-native';
+import { Entypo } from '@expo/vector-icons';
 import seasonal_products from '../Constants/SeasonalProducts';
 
 const SeasonalProducts = () => {
@@ -57,8 +58,8 @@ const styles = StyleSheet.create({
     },
 
     seasonal_cont: {
-        backgroundColor: "green",
-        padding: 15,
+        backgroundColor: "#c4d600",
+        padding: 10,
         marginTop: 10,
         borderRadius: 20,
         fontSize: 17,

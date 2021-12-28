@@ -5,7 +5,7 @@ const covid_essentials = [
         p_type: "Immune Support & antioxidants",
         discount: "10% OFF",
         price: "ZMK 99.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/mincy.jpeg'),
     },
 
     {
@@ -14,7 +14,7 @@ const covid_essentials = [
         p_type: "Immune Support & antioxidants",
         discount: "14% OFF",
         price: "ZMK 133.00",
-        img: require('../assets/images/banner_2.jpg'),
+        img: require('../assets/images/cfizz.jpeg'),
     },
 
     {
@@ -23,7 +23,7 @@ const covid_essentials = [
         p_type: "Hand Sanitizer",
         discount: "30% OFF",
         price: "ZMK 550.00",
-        img: require('../assets/images/banner_3.jpg'),
+        img: require('../assets/images/bennette.jpeg'),
     },
 
     {
@@ -32,7 +32,7 @@ const covid_essentials = [
         p_type: "Hand Sanitizer",
         discount: "32% OFF",
         price: "ZMK 17.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/hand-sanitiser.jpg'),
     },
 
     {
@@ -41,7 +41,7 @@ const covid_essentials = [
         p_type: "Hand Sanitizer",
         discount: "12% OFF",
         price: "ZMK 190.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/5lit.jpeg'),
     },
 
     {
@@ -50,7 +50,7 @@ const covid_essentials = [
         p_type: "Hand Sanitizer",
         discount: "20% OFF",
         price: "ZMK 210.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/gel.jpg'),
     },
 
     {
@@ -59,7 +59,7 @@ const covid_essentials = [
         p_type: "Surgical Consumables",
         discount: "47% OFF",
         price: "ZMK 200.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/face_mask.jpeg'),
     },
 
     {
@@ -68,7 +68,7 @@ const covid_essentials = [
         p_type: "Surgical Consumables",
         discount: "14% OFF",
         price: "ZMK 40.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/face-shield.jpg'),
     },
 
     {

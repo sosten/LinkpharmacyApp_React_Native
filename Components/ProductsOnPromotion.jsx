@@ -58,8 +58,8 @@ const styles = StyleSheet.create({
     },
 
     product_promo: {
-        backgroundColor: "green",
-        padding: 15,
+        backgroundColor: "#c4d600",
+        padding: 10,
         marginTop: 10,
         borderRadius: 20,
         fontSize: 17,
@@ -76,13 +76,13 @@ const styles = StyleSheet.create({
         height: 270,
         width: 170,
         borderWidth: 1,
-        borderColor: "#5555",
+        borderColor: "#f0f0f0",
     },
 
     img: {
         width: "100%",
         height: "38%",
-        resizeMode: "cover",
+        resizeMode: "contain",
         marginBottom: 10,
     },
 

@@ -5,7 +5,7 @@ const products_on_promotion = [
         p_type: "Pain Rub",
         discount: "18% OFF",
         price: "ZMK 99.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/deep_heat.jpg'),
     },
 
     {
@@ -14,7 +14,7 @@ const products_on_promotion = [
         p_type: "Immune Support & antioxidants",
         discount: "14% OFF",
         price: "ZMK 133.00",
-        img: require('../assets/images/banner_2.jpg'),
+        img: require('../assets/images/vitamin-c-1000mg-effervescent.jpg'),
     },
 
     {
@@ -23,7 +23,7 @@ const products_on_promotion = [
         p_type: "Blood Glucose Testing",
         discount: "30% OFF",
         price: "ZMK 550.00",
-        img: require('../assets/images/banner_3.jpg'),
+        img: require('../assets/images/accu_chek.jpeg'),
     },
 
     {
@@ -32,7 +32,7 @@ const products_on_promotion = [
         p_type: "Blood Glucose Testing",
         discount: "32% OFF",
         price: "ZMK 17.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/accu-check-active.jpg'),
     },
 
     {
@@ -41,7 +41,7 @@ const products_on_promotion = [
         p_type: "Blood Glucose Testing",
         discount: "12% OFF",
         price: "ZMK 190.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/on_call_extra_glucometer.jpg'),
     },
 
     {
@@ -50,7 +50,7 @@ const products_on_promotion = [
         p_type: "Blood Glucose Testing",
         discount: "20% OFF",
         price: "ZMK 210.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/on_call.jpeg'),
     },
 
     {
@@ -59,7 +59,7 @@ const products_on_promotion = [
         p_type: "Face Mask",
         discount: "47% OFF",
         price: "ZMK 200.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/face_mask.jpeg'),
     },
 
     {
@@ -68,7 +68,7 @@ const products_on_promotion = [
         p_type: "Face Mask",
         discount: "14% OFF",
         price: "ZMK 1250.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/face_mask.jpeg'),
     },
 
     {
@@ -77,7 +77,7 @@ const products_on_promotion = [
         p_type: "Wrist Bp Machine",
         discount: "15% OFF",
         price: "ZMK 550.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/medel.jpeg'),
     },
 
     {
@@ -86,7 +86,7 @@ const products_on_promotion = [
         p_type: "Arm Bp machine",
         discount: "13% OFF",
         price: "ZMK 650.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/medel_arm.jpeg'),
     },
 
     {
@@ -95,7 +95,7 @@ const products_on_promotion = [
         p_type: "Bp Monitor Digital",
         discount: "22% OFF",
         price: "ZMK 350.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/bp.jpeg'),
     }
 ]
 

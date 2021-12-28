@@ -58,8 +58,8 @@ const styles = StyleSheet.create({
     },
 
     covid_cont: {
-        backgroundColor: "green",
-        padding: 15,
+        backgroundColor: "#c4d600",
+        padding: 10,
         marginTop: 10,
         borderRadius: 20,
         fontSize: 17,
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     img: {
         width: "100%",
         height: "38%",
-        resizeMode: "cover",
+        resizeMode: "contain",
         marginBottom: 10,
     },
 
