@@ -33,9 +33,9 @@ export default function App() {
             key={drawer.name}
             name={drawer.name}
             component= {
-              drawer.name==="Home" ? HomeScreen
-              : drawer.name==="Search" ? SearchProduct 
-              : drawer.name==="Uploade Prescription" ? UploadePrescription
+              drawer.name === "Home" ? HomeScreen
+              : drawer.name === "Search" ? SearchProduct 
+              : drawer.name === "Uploade Prescription" ? UploadePrescription
               : Categories
             }
 
@@ -208,7 +208,7 @@ export default function App() {
           />)
         }
       </Drawer.Navigator>
-      <StatusBar style="auto" />
+      <StatusBar style="auto" barStyle="green" backgroundColor="#B4D55B" />
     </NavigationContainer>
   );
 }

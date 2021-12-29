@@ -5,7 +5,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "10% OFF",
         price: "ZMK 140.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/Island-Tribe-After-Sun-Cooling-Lotion.jpg'),
     },
 
     {
@@ -14,7 +14,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "14% OFF",
         price: "ZMK 268.00",
-        img: require('../assets/images/banner_2.jpg'),
+        img: require('../assets/images/nivea_sun.jpg'),
     },
 
     {
@@ -23,7 +23,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "30% OFF",
         price: "ZMK 320.00",
-        img: require('../assets/images/banner_3.jpg'),
+        img: require('../assets/images/nivea_kid.jpeg'),
     },
 
     {
@@ -32,7 +32,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "32% OFF",
         price: "ZMK 509.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nivea_kid.jpeg'),
     },
 
     {
@@ -41,7 +41,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "12% OFF",
         price: "ZMK 509.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nivea_kid.jpeg'),
     },
 
     {
@@ -50,7 +50,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "20% OFF",
         price: "ZMK 469.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nivea-sun-kids-swim-play-lotion.jpg'),
     },
 
     {
@@ -59,7 +59,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "47% OFF",
         price: "ZMK 469.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nivea_sun.jpg'),
     },
 
     {
@@ -68,7 +68,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "14% OFF",
         price: "ZMK 469.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nivea_sun.jpg'),
     },
 
     {
@@ -77,7 +77,7 @@ const seasonal_products = [
         p_type: "Sun Care",
         discount: "15% OFF",
         price: "ZMK 509.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nivea_sun.jpg'),
     },
 
 ]

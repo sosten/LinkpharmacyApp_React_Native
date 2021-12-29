@@ -5,7 +5,7 @@ const healthy_living = [
         p_type: "Heart Supplements",
         discount: "10% OFF",
         price: "ZMK 281.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/cardioace-30-tablets.jpg'),
     },
 
     {
@@ -14,7 +14,7 @@ const healthy_living = [
         p_type: "Heart Supplements",
         discount: "14% OFF",
         price: "ZMK 298.00",
-        img: require('../assets/images/banner_2.jpg'),
+        img: require('../assets/images/Cardio-care-tablets.jpg'),
     },
 
     {
@@ -23,7 +23,7 @@ const healthy_living = [
         p_type: "Diabetes Supplements",
         discount: "30% OFF",
         price: "ZMK 203.00",
-        img: require('../assets/images/banner_3.jpg'),
+        img: require('../assets/images/diabetone_original.jpg'),
     },
 
     {
@@ -32,7 +32,7 @@ const healthy_living = [
         p_type: "Diabetes Supplements",
         discount: "32% OFF",
         price: "ZMK 117.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nativa.jpg'),
     },
 
     {
@@ -41,7 +41,7 @@ const healthy_living = [
         p_type: "Digestive",
         discount: "12% OFF",
         price: "ZMK 178.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nativa.jpg'),
     },
 
     {
@@ -50,7 +50,7 @@ const healthy_living = [
         p_type: "Supplements",
         discount: "20% OFF",
         price: "ZMK 158.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/2D-packshot-Goldcare.png'),
     },
 
     {
@@ -59,7 +59,7 @@ const healthy_living = [
         p_type: "Supplements",
         discount: "47% OFF",
         price: "ZMK 160.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/livolin.jpg'),
     },
 
     {
@@ -68,7 +68,7 @@ const healthy_living = [
         p_type: "Pregnancy Supplements",
         discount: "14% OFF",
         price: "ZMK 169.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/natocare.jpg'),
     },
 
     {
@@ -77,7 +77,7 @@ const healthy_living = [
         p_type: "Immunity Booster",
         discount: "15% OFF",
         price: "ZMK 180.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/vitatech-immune-support.jpg'),
     },
 
 ]

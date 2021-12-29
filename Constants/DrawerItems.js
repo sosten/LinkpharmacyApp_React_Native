@@ -1,7 +1,7 @@
 export default [
     {
         name:'Home',
-        iconType:'Ionicons',
+        iconType:'AntDesign',
         iconName:'home'
     },
 

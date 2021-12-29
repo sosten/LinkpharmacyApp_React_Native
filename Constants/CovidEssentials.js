@@ -77,7 +77,7 @@ const covid_essentials = [
         p_type: "Surgical Consumables",
         discount: "15% OFF",
         price: "ZMK 10.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/apron.jpeg'),
     },
 
     {
@@ -86,7 +86,7 @@ const covid_essentials = [
         p_type: "Temperature Measurements",
         discount: "13% OFF",
         price: "ZMK 650.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/infra_red.jpg'),
     },
 
     {
@@ -95,7 +95,7 @@ const covid_essentials = [
         p_type: "Testing Device",
         discount: "22% OFF",
         price: "ZMK 270.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/pulse.jpg'),
     },
 
     {
@@ -104,7 +104,7 @@ const covid_essentials = [
         p_type: "Surgical consumables",
         discount: "22% OFF",
         price: "ZMK 300.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/gloves.jpg'),
     },
 
     {
@@ -113,7 +113,7 @@ const covid_essentials = [
         p_type: "Dressing",
         discount: "22% OFF",
         price: "ZMK 6.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/examination_glove.jpg'),
     }
 ]
 

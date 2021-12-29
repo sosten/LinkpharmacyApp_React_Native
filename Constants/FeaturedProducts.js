@@ -5,7 +5,7 @@ const featured_products = [
         p_type: "Baby food and formula",
         discount: "10% OFF",
         price: "ZMK 180.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nestle_pre_nan_400gm_tin.jpg'),
     },
 
     {
@@ -14,7 +14,7 @@ const featured_products = [
         p_type: "Baby food and formula",
         discount: "14% OFF",
         price: "ZMK 299.00",
-        img: require('../assets/images/banner_2.jpg'),
+        img: require('../assets/images/NestleNANGrowOptiproStage3GrowingUpFormula900g.jpg'),
     },
 
     {
@@ -23,7 +23,7 @@ const featured_products = [
         p_type: "Baby food and formula",
         discount: "30% OFF",
         price: "ZMK 315.00",
-        img: require('../assets/images/banner_3.jpg'),
+        img: require('../assets/images/nan.jpeg'),
     },
 
     {
@@ -32,7 +32,7 @@ const featured_products = [
         p_type: "Baby food and formula",
         discount: "32% OFF",
         price: "ZMK 112.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/lactogen.jpeg'),
     },
 
     {
@@ -41,7 +41,7 @@ const featured_products = [
         p_type: "Wind & colic pain",
         discount: "12% OFF",
         price: "ZMK 71.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/woodward-s-gripe-water-200-ml.jpg'),
     },
 
     {
@@ -50,7 +50,7 @@ const featured_products = [
         p_type: "Baby supplements",
         discount: "20% OFF",
         price: "ZMK 56.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/bonnisan_syrup_120ml.jpg'),
     },
 
     {
@@ -59,7 +59,7 @@ const featured_products = [
         p_type: "Baby Care",
         discount: "47% OFF",
         price: "ZMK 156.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/coleze.jpeg'),
     },
 
     {
@@ -68,7 +68,7 @@ const featured_products = [
         p_type: "Supplement",
         discount: "14% OFF",
         price: "ZMK 149.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/infant_d.jpg'),
     },
 
     {
@@ -77,7 +77,7 @@ const featured_products = [
         p_type: "Immunity Booster",
         discount: "15% OFF",
         price: "ZMK 140.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/immune.jpg'),
     },
 
     {
@@ -86,7 +86,7 @@ const featured_products = [
         p_type: "Pain & Fever",
         discount: "15% OFF",
         price: "ZMK 124.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/Nurofen.jpg'),
     },
 
     {
@@ -95,7 +95,7 @@ const featured_products = [
         p_type: "Pain Relief",
         discount: "15% OFF",
         price: "ZMK 72.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/nurofen_period.jpg'),
     },
 
     {
@@ -104,7 +104,7 @@ const featured_products = [
         p_type: "Pain Relief",
         discount: "15% OFF",
         price: "ZMK 195.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/deep_freez.png'),
     },
 
     {
@@ -113,7 +113,7 @@ const featured_products = [
         p_type: "Antacids",
         discount: "15% OFF",
         price: "ZMK 228.00",
-        img: require('../assets/images/banner_1.jpg'),
+        img: require('../assets/images/gaviscon.jpg'),
     },
 
 ]
